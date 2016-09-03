@@ -1,0 +1,11 @@
+name: MiniGames-Core
+main: MGC\MGC
+version: 1.0
+api: [2.0.0]
+authors: [VCraftMCPE.RagingShadow123]
+description: Provides a mini-game modification platform for the Lifeboat server system.
+commands:
+ MGC:
+  description: "See commands list"
+  usage: "/MGC <page> "
+  permission: MGC.command
