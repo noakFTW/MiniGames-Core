@@ -7,7 +7,7 @@ description: a Simple MiniGames servers System.
 commands:
  MGC Info:
  description: "View MGC Info"
- usage: "/MGCinfo"
+ usage: "/MGC info"
  permission: MGC.command.info
  MGC:
   description: "See commands list"
@@ -15,7 +15,7 @@ commands:
   permission: MGC.command.help
 permissions:
  MGC.command.info:
-  default: op
+  default: true
   description: "Display MGC Info"
  MGC.command.help:
   default: op
