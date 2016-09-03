@@ -2,7 +2,7 @@ name: MiniGames-Core
 main: MGC\MGC
 version: 1.0
 api: [2.0.0]
-authors: [VCraftMCPE.RagingShadow123.MajorPlayz/Majorhard]
+authors: [VCraftMCPE.NoakFTW.MajorPlayz/Majorhard]
 description: a Simple MiniGames servers System.
 commands:
  MGC Info:
