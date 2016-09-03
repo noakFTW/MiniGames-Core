@@ -1,6 +1,6 @@
 # MiniGames-Core
 
-An advanced system for production level servers that does all the hard work for you!
+An advanced system for production level minigame servers that does all the hard work for you!
 
 The plugin wil run standalone on PocketMine-MP servers with PHP7
 
