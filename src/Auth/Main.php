@@ -1,2 +1,21 @@
-<?php
-//code soon
+namespace Auth;
+use pocketmine\command\Command;
+use pocketmine\command\CommandSender;
+use pocketmine\IPlayer;
+use pocketmine\utils\Config;
+use pocketmine\permission\PermissionAttachment;
+use pocketmine\permission\Permission;
+use pocketmine\Player;
+use pocketmine\Server;
+use pocketmine\plugin\PluginBase;
+use pocketmine\utils\TextFormat;
+use Auth\event\PlayerAuthenticateEvent;
+use Auth\event\PlayerDeauthenticateEvent;
+use Auth\event\PlayerRegisterEvent;
+use Auth\event\PlayerUnregisterEvent;
+use Auth\provider\DataProvider;
+use Auth\provider\DummyDataProvider;
+use Auth\provider\MySQLDataProvider;
+use Auth\provider\SQLite3DataProvider;
+use Auth\provider\YAMLDataProvider;
+use Auth\task\ShowMessageTask;
