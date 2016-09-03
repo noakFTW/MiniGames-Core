@@ -1,8 +1,12 @@
 <?php
+namespace MCG;
 
-use Auth/Main
-use Coins/Main
-use Warn/Main
-use BanSystem/Main
-use Lobby/Main
-use BroadCaster/Main
+use AntiHack\Main;
+use Vip\Main;
+use BroadCaster\Main;
+use MCG\events\PlayerAuthEvent;
+use MCG\language\lang;
+use pocketmine\command\Command;
+use pocketmine\command\CommandSender;
+use pocketmine\plugin\PluginBase;
+use pocketmine\utils\TextFormat;
