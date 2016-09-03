@@ -2,10 +2,22 @@ name: MiniGames-Core
 main: MGC\MGC
 version: 1.0
 api: [2.0.0]
-authors: [VCraftMCPE.RagingShadow123]
+authors: [VCraftMCPE.RagingShadow123.MajorPlayz/Majorhard]
 description: a Simple MiniGames servers System.
 commands:
+ MGC Info:
+ description: "View MGC Info"
+ usage: "/MGCinfo"
+ permission: MGC.command.info
  MGC:
   description: "See commands list"
   usage: "/MGC <page> "
-  permission: MGC.command
+  permission: MGC.command.help
+permissions:
+ MGC.command.info:
+  default: op
+  description: "Display MGC Info"
+ MGC.command.help:
+  default: op
+  description: "Help page for MGC"
+  
