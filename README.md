@@ -1,4 +1,5 @@
 # MiniGames-Core
+#WARNING THIS IS THE EXPERIMENTAL BRANCH. This may cause harm to your server so only use if you **100%** know what you are doing
 
 An advanced system for production level servers that does all the hard work for you!
 
