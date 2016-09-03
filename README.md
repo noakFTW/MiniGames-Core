@@ -1,4 +1,5 @@
 # MiniGames-Core
+_By **PeaceOfDevs**_
 
 An advanced system for production level minigame servers that does all the hard work for you!
 
