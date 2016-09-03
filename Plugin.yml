@@ -16,7 +16,7 @@ commands:
 permissions:
  MGC.command.info:
   default: true
-  description: "Show Plugin coders"
+  description: "Show Plugin info" #Info sounds better
  MGC.command.help:
   default: op
   description: "Help page for MGC"
