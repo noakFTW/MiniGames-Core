@@ -2,6 +2,7 @@
 namespace MCG;
 
 use AntiHack\Main;
+use CoinsAPI\Main;
 use Vip\Main;
 use BroadCaster\Main;
 use MCG\events\PlayerAuthEvent;
